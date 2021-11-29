@@ -1,0 +1,40 @@
+body {
+    background-color: #F5F5DD;
+}
+
+h1, h3 {
+    color: red
+}
+
+p, a, li {
+    color: blue;
+}
+
+table {
+    table-layout: fixed;
+}
+
+td { 
+    width: 320px;
+    text-align:center;
+}
+
+td img {
+    width:320px; 
+    height: 180px;
+}
+#ques {
+    color:blue;
+}
+
+div.relative {
+    position: relative;
+    left: 500px;
+
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
